@@ -1,0 +1,27 @@
+/* ICONS DEVICON */
+i{
+	font-size: 80%;
+	color: white;
+}
+
+/* SECTION CONFIGURATION */
+#aboutme{
+	text-align: center;
+	height: 100vh;
+	background-color: aqua;
+	display: flex; /* propiedad flexbox */
+  	justify-content: center; /* centrar el contenido horizontalmmente */
+  	align-items: center; /* centrar el contenido verticalmente*/
+}
+#skills{
+	height: 100vh;
+	background-color: red;
+}
+#projects{
+	height: 100vh;
+	background-color: blueviolet;
+}
+#contactme{
+	height: 100vh;
+	background-color: yellow;
+}
