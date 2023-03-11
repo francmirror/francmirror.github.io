@@ -2,117 +2,328 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- LINK CSS -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- LINK DEVICON -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Porfolio Francmirror" />
+    <meta name="author" content="francmirror" />
+    <title>Lloyka</title>
+
+    <!-- Link to devicon -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <!-- LINK BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <title>Francmirror</title>
+          
+    <!-- Iconos -->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+    <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
-<body>
-    <!-- HEADER AND NAVBAR CODE -->
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Francmirror</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<body id="page-top">
 
-                <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 " aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="#aboutme">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="#projects">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="#contactme">Contact me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="https://blog.francmirror.es">Blog</a>
-                        </li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Francmirror</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/avatar.png" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#francmirror">Francmirror</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sobremi">About me</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#porfolio">Projects</a></li>
 
-                    </ul>
-                    <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark h5" href="" target="blank"> <i
-                                    class="devicon-twitter-original"></i></a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark h5" href="" target="blank"><i
-                                    class="devicon-linkedin-plain"></i></a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark h5" href="" target="blank"> <i
-                                    class="devicon-github-original"></i></a>
-                        </li>
-                    </ul>
+                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li> -->
+
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#educacion">Degrees</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contacto">Contact me</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://blog.francmirror.es">My personal blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <div class="container-fluid p-2">
+        <!-- francmirror -->
+        <section class="resume-section" id="francmirror">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Welcome, I'm
+                    <span class="text-primary">Francmirror</span>
+                </h1>
+                <br />
+                <div class="subheading mb-4">
+                    Welcome to my portfolio.
+                </div>
+
+                <p class="lead mb-5"> contact me in <a
+                        href="mailto:francmirrordev@gmail.com">francmirrordev@gmail.com</a>
+                </p>
+
+                <a href="assets/download/CVAndreaPerezH.pdf" download="CVAndreaPerezH.pdf">
+                    <button>
+                        <span class="button_top"> Download my CV</span>
+                    </button>
+                </a>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/francisco-espejo-carretero/"
+                        target="_blank"><i class="devicon-linkedin-plain"></i></a>
+                    <a href="https://github.com/francmirror" target="_blank">
+                        <i class="devicon-github-original"></i></a>
+                    <a href="https://twitter.com/francmirror" target="_blank">
+                        <i class="devicon-twitter-original"></i>
+                      </a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </section>
+        <hr class="m-0" />
 
-    <!--  SECTION CODE -->
-    <section>
-        <article id="iam">
-            <div>
-                <h1>I'm Francmirror</h1>
-                <br>
-                <img src="assets/avatar.png" alt="francmirror">
+        <!-- Sobre Mi -->
+        <section class="resume-section" id="sobremi">
+            <div class="resume-section-content">
+                <h2 class="mb-5">ABOUT ME</h2>
+
+                <p class="lead mb-5">
+                    I am a student who likes programming and pentesting. Every day I try to improve and learn new
+                    knowledge. I know about web development and knowledge about servers and network operating systems
+                    I am very creative and love all areas of technology. I upload all the things I learn daily to my
+                    blog. In my resume you can find more information about me. I am a native Spanish, but I also have an
+                    advanced certification in English.
+                </p>
+                <h4>Right now I run a blog where I share didactic content and things that I learn in my day to day life.
+                </h4>
+                <br />
+                <br />
+                <p class="lead mb-5"> if you want to contact me send an email to <a
+                        href="mailto:francmirrordev@gmail.com">francmirrordev@gmail.com</a>
+                </p>
+                <p class="lead mb-5"> if you want to see more detailed information about me you can visit me in my <a
+                        href="https://www.linkedin.com/in/francisco-espejo-carretero">LinkedIn</a>
+                </p>
+
             </div>
-        </article>
+        </section>
+        <hr class="m-0" />
 
-        <article id="aboutme">
-            <div>
-                <h1>I'm Francmirror</h1>
-                <br>
-                <img src="assets/avatar.png" alt="francmirror">
+        <!-- Porfolio -->
+        <section class="resume-section" id="porfolio">
+            <div class="resume-section-content">
+                <h2 class="mb-5">My personal Projects</h2>
+
+                <div class="manycards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Rock, paper and scissors</h5>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="15%"/>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go to the proyect</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">My personal Blog</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Academic Development</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <hr class="m-0" />
+
+        <!-- Experience-->
+        <!-- <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Web Designer</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Design Intern</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" /> -->
+
+        <!-- Educación -->
+        <section class="resume-section" id="educacion">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Degrees</h2>
+
+                <!-- MetCamp REACT -->
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Técnico en microsistemas y redes (S.M.R)</h3>
+                        <div class="subheading mb-3">Networks, programming, servers...</div>
+                        <div>2000 hour degree</div>
+                        <p> </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">September 2021 - June 2023</span></div>
+                </div>
+                <!-- Boton Certificado-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#metreact">
+                    Certificado
+                </button>
+
+                <!-- CURSO HTML-CSS -->
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Html5 and css3 professional course</h3>
+                        <div class="subheading mb-3">All about creating websites with html5 and css3</div>
+                        <div>10 hour course</div>
+                        <p> </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">November 2022 - December 2022</span></div>
+                </div>
+                <!-- Boton Certificado-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#metreact">
+                    Certificado
+                </button>
+
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Git Professional Course</h3>
+                        <div class="subheading mb-3">All about the functions and use of the git command</div>
+                        <div>Curso de 2 horas.</div>
+                        <p> </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">January 2023</span></div>
+                </div>
+                <!-- Boton Certificado-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#metreact">
+                    Certificado
+                </button>
+
+        </section>
+        <hr class="m-0" />
+
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">My Skills</h2>
+
+                <div class="subheading mb-3">Programming languages</div>
+
+                <p>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        width="5%" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="5%" />
+                </p>
+
+                <div class="subheading mb-3">Frameworks y Librerías</div>
+
+                <p>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                        width="5%" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" width="5%" />
+                </p>
+
+                <div class="subheading mb-3">Software & operating system</div>
+                <p>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="5%" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" width="5%" />
+                </p>
             </div>
-        </article>
+        </section>
+        <hr class="m-0" />
 
-        <article id="projects">
-            <div>
-                <h1>I'm Francmirror</h1>
-                <br>
-                <img src="assets/avatar.png" alt="francmirror">
+        <!-- Contacto-->
+        <section class="resume-section" id="contacto">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Contáctame!</h2>
+
+                <ul class="fa-ul">
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-envelope text-warning"></i></span>
+                        <p class="lead mb-5">My personal Email <a href="francmirrordev@gmail.com"
+                                target="_blank">francmirrordev@gmail.com</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-brands fa-linkedin text-warning"></i></i></span>
+                        <p class="lead mb-5">My LinkedIn <a
+                                href="https://www.linkedin.com/in/francisco-espejo-carretero/"
+                                target="_blank">in/francisco-espejo</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/francisco-espejo-carretero/"
+                        target="_blank"><i class="devicon-linkedin-plain"></i></a>
+                    <a href="https://github.com/francmirror" target="_blank">
+                        <i class="devicon-github-original"></i></a>
+                    <a href="https://twitter.com/francmirror" target="_blank">
+                        <i class="devicon-twitter-original"></i>
+                      </a>
+                </div>
+
+                <br><br><br>
+
+                <h5>This website was made with</h5>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    width="5%" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="5%" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    width="5%" />
             </div>
-        </article>
-
-        <article id="contactme">
-            <div>
-                <h1>I'm Francmirror</h1>
-                <br>
-                <img src="assets/avatar.png" alt="francmirror">
-            </div>
-        </article>
-
-
-    </section>
-
-
-    <!-- FOOTER CODE -->
-    <footer>
-
-
-    </footer>
+        </section>
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="js/scripts.js"></script>
 </body>
-
-<script src="js/navbar.js"></script>
 
 </html>
